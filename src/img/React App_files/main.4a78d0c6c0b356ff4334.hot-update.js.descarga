@@ -1,0 +1,81 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Components_login__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Components/login */ "./src/Components/login.js");
+/* harmony import */ var _Components_inicio_inicio__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Components/inicio/inicio */ "./src/Components/inicio/inicio.js");
+/* harmony import */ var _Components_afiliados_afiliado__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Components/afiliados/afiliado */ "./src/Components/afiliados/afiliado.js");
+var _jsxFileName = "C:\\Users\\ASUS\\Documents\\Node\\cooperativa\\frontend\\src\\App.js";
+
+
+
+
+
+
+
+function App() {
+  const [sLogin, setLogin] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
+    login: null
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/inicio",
+    component: _Components_inicio_inicio__WEBPACK_IMPORTED_MODULE_4__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/afiliados",
+    component: _Components_afiliados_afiliado__WEBPACK_IMPORTED_MODULE_5__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/login",
+    component: _Components_login__WEBPACK_IMPORTED_MODULE_3__["default"],
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 11
+    }
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.4a78d0c6c0b356ff4334.hot-update.js.map

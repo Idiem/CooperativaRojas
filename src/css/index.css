@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Cursiva";
+    src: url("./hello_valentica/Hello\ Valentina.ttf");
+}
+.fondo-celebrar{
+    background-image: url('./../img/fondo-celebracion.jpg');
+}
+.cusriva{
+    font-family: "Cursiva";
+}
+.bx-shadown-black{
+    box-shadow: 0 0 10px black;
+}
+.bx-shadown-white{
+    box-shadow: 0 0 5px white;
+}
+.fondo {
+    background-image:linear-gradient(90deg, rgba(2,0,36,0.8015581232492998) 0%, rgba(9,9,121,0.7511379551820728) 34%, rgba(0,212,255,0.7483368347338936) 100%),url('../img/fondo.jpg') ;
+}
+.h-50p{
+    height: 50%;
+}
+.w-98p{
+    width: 98%;
+}
+.w-3p{
+    width: 3%;
+}
+.w-97p{
+    width: 97%;
+}
+.w-50p{
+    width: 50%;
+}
+.rotate-180-{
+    transform: rotate(180deg);
+}
+.w-20p{
+    width: 20%;
+}
+.w-80p{
+    width: 90%;
+}
+.h-93p{
+    height: 93%;
+}
+.h-7p{
+  height: 7%;  
+}
+.h-10p{
+    height: 10%;
+}
+.h-90p{
+    height: 90%;
+}
+.h-40p{
+    height: 40%;  
+}
+.h-60p{
+    height: 59%;
+}
+.h-70p{
+    height: 70%;
+}
+.h-30p{
+    height: 30%;
+}
+.h-80p{
+    height: 80%;
+}
+.h-20p{
+    height: 20%;
+}
+.w-90p{
+    width: 90%;
+}
+.text-size-20{
+    font-size: 20px;
+}
+.text-size-14{
+    font-size: 14px;
+}
+.xl\:w-98p{
+    width: 98%;
+}
