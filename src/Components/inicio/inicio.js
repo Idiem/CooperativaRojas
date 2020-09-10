@@ -1,5 +1,4 @@
-import React, { useEffect,useState } from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
 import Dashboard from '../dashboard';
 import Admin from './admin';
 import {BrowserRouter as Router, Switch,Route} from "react-router-dom";

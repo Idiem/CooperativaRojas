@@ -1,5 +1,4 @@
 import React, { useEffect,useState } from 'react';
-import axios from 'axios';
 import {motion,AnimatePresence} from 'framer-motion';
 import fondo from '../img/fondo.jpg'
 

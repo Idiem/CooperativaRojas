@@ -1,14 +1,9 @@
-import React, { useEffect,useState } from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
 import Header from '../header'
 const Afiliados = (props)=>{    
-    const [estado,setEstado] = useState({
+    const [estado] = useState({
         ventana : 'AFILIADOS'
     })
-
-    const cerrar = ()=>{
-        setEstado({ventana:'AFILIADOS'});
-    }
     return(
         <div className="row-span-6 grid">
             <Header estado={props.estado} nombre={estado.ventana} cambiarDash={props.cambiarDash} />

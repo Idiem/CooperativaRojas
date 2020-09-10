@@ -1,6 +1,4 @@
-import React, { useEffect,useState } from 'react';
-import axios from 'axios';
-import {motion,AnimatePresence} from 'framer-motion';
+import React from 'react';
 const TotalAhorrado = (props)=>{
     return(
         <div className="block row-span-6 grid grid-rows-6">

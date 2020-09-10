@@ -1,8 +1,6 @@
-import React, { useEffect,useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import ancheta from '../../img/ancheta.jpg'
 import flecha from '../../img/izquierda (2).png';
-import {motion,AnimatePresence} from 'framer-motion';
 const TotalActividades = (props)=>{
     return(
         <div className="h-full">

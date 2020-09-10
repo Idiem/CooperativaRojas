@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from 'react';
+import React, {useState } from 'react';
 import TotalAhorrado from './TotalAhorrado'
 import TotalActividades from './TotalActividades'
 import dinero from '../../img/dinero (1).png'
