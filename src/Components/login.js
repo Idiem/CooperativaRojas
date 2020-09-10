@@ -22,6 +22,7 @@ const Login = (props) => {
         animacion : false,
         estadoAnimacion : 0
     });
+
     useEffect(()=>{
         if(estado.animacion){
             setid = setTimeout(()=>{
@@ -30,9 +31,10 @@ const Login = (props) => {
         }else{
             clearTimeout(setid);
         }
-    },[estado.estadoAnimacion]);
+    },[estado.estadoAnimacion,estado]);
+
     const omitir=()=>{
-        setEstado({animate:false});
+        setEstado({...estado,animate:false});
     }
     const onChange = (e)=>{
         setEstado({...estado,[e.target.name]: e.target.value});
@@ -60,7 +62,7 @@ const Login = (props) => {
                         }
                         </AnimatePresence>
                         <AnimatePresence>
-                        {estado.estadoAnimacion==2?
+                        {estado.estadoAnimacion===2?
                             <div className="h-90p flex justify-center items-center">
                                 {omitir()}
                             </div>                       
@@ -76,7 +78,7 @@ const Login = (props) => {
                              <h1 className="text-6xl text-white text-center">COOPERATIVA ROJAS</h1>
                          </div>
                          <div className="bx-shadown-white col-span-2 row-span-2 p-5">
-                             <img className=" h-full" src={fondo}></img>
+                             <img className=" h-full" alt="fondo" src={fondo}></img>
                          </div>
                          <div className="bx-shadown-white w-full col-span-3 row-span-2 ">
                              <form onSubmit={submit} className="p-5 grid grid-flow-col gap-3 grid-rows-5">

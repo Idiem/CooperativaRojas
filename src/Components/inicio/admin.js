@@ -36,12 +36,12 @@ const Admin = (props)=>{
                         <TotalActividades cerrar={cerrar} />
                     </div>
                 :null}
-                {estado.ventana == 'INICIO' ?
+                {estado.ventana === 'INICIO' ?
                 <div className="block xl:h-90p h-auto xl:p-8 p-3 grid grid-cols-12">
                     <div className="col-span-12 xl:gap-10 gap-5 grid-cols-12 grid ">
                         <div className="xl:col-span-4 col-span-6 rounded bx-shadown-black p-2 xl:grid xl:grid-cols-2">
                             <div className="p-2">
-                                <img src={puesto} className="w-24 block m-auto"></img>
+                                <img src={puesto} alt="pruba" className="w-24 block m-auto"></img>
                             </div>
                             <div>
                                 <div className="h-50p text-center p-2">
@@ -55,7 +55,7 @@ const Admin = (props)=>{
                         </div>
                         <div onClick={cambiarVentanaT} className="xl:col-span-4 col-span-6 rounded cursor-pointer xl:grid xl:grid-cols-2 bx-shadown-black p-2">
                             <div className="p-2">
-                                <img src={dinero} className="w-24 block m-auto"></img>
+                                <img src={dinero} alt="pruba" className="w-24 block m-auto"></img>
                             </div>
                             <div>
                                 <div className="h-50p text-center p-2">
@@ -69,7 +69,7 @@ const Admin = (props)=>{
                         </div>
                         <div className="xl:col-span-4 col-span-6 bx-shadown-black rounded p-2 xl:grid xl:grid-cols-2">
                             <div className="p-4">
-                                <img src={cuenta} className="w-20 block m-auto"></img>
+                                <img src={cuenta} alt="pruba" className="w-20 block m-auto"></img>
                             </div>
                             <div>
                                 <div className="h-50p text-center p-2">
@@ -83,7 +83,7 @@ const Admin = (props)=>{
                         </div>
                         <div onClick={cambiarVentanaA} className="xl:col-span-6 col-span-6 cursor-pointer rounded bx-shadown-black p-2 xl:grid xl:grid-cols-2">
                             <div className="p-2">
-                                    <img src={actividad} className="w-24 block m-auto"></img>
+                                    <img src={actividad} alt="pruba" className="w-24 block m-auto"></img>
                                 </div>
                             <div>
                                 <div className="h-50p text-center p-2">
@@ -97,7 +97,7 @@ const Admin = (props)=>{
                         </div>
                         <div className="xl:col-span-6 col-span-6 cursor-pointer rounded xl:grid xl:grid-cols-2 bx-shadown-black p-2">
                             <div className="p-2">
-                                <img src={dinero2} className="w-24 block m-auto"></img>
+                                <img src={dinero2} alt="pruba" className="w-24 block m-auto"></img>
                             </div>
                             <div>
                                 <div className="h-50p text-center p-2">
@@ -111,7 +111,7 @@ const Admin = (props)=>{
                         </div>
                         <div className="xl:col-span-6 col-span-6 cursor-pointer rounded bx-shadown-black p-2 xl:grid xl:grid-cols-2">
                             <div className="p-2">
-                                    <img src={personas} className="w-24 block m-auto"></img>
+                                    <img src={personas} alt="pruba" className="w-24 block m-auto"></img>
                                 </div>
                             <div>
                                 <div className="h-50p text-center p-2">
@@ -125,7 +125,7 @@ const Admin = (props)=>{
                         </div>
                         <div className="xl:col-span-6 col-span-6 cursor-pointer rounded xl:grid xl:grid-cols-2 bx-shadown-black p-2">
                             <div className="p-2">
-                                <img src={peligro} className="w-24 block m-auto"></img>
+                                <img src={peligro} alt="pruba" className="w-24 block m-auto"></img>
                             </div>
                             <div>
                                 <div className="h-50p text-center p-2">
