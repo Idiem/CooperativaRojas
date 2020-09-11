@@ -17,22 +17,18 @@ function App() {
       }
   }   
   return (
-    <Router>
-        <Switch>
-          <Route path="/app" >
-            <div className="xl:h-screen w-full xl:flex">
-                  <Dashboard usuario="1" dash={estado.dash}/>
-                  <div className="grid w-full h-full xl:w-98p grid-rows-6">
-                      <Switch>
-                          <Route path='/app/afiliados' render={()=><Afiliados estado={estado} cambiarDash={cambiarDash}/>} ></Route>
-                          <Route path='/app'  render={()=><Admin estado={estado} cambiarDash={cambiarDash}/>}></Route>
-                      </Switch>
-                  </div>
-              </div>
-          </Route>
-          <Route path="/" component={Login}></Route>
-        </Switch>
-    </Router>
+      <Router>
+        <div className="xl:h-screen w-full xl:flex">
+                    <Dashboard usuario="1" dash={estado.dash}/>
+                    <div className="grid w-full h-full xl:w-98p grid-rows-6">
+                        <Switch>
+                            <Route path='/login' component={Login}></Route>
+                            <Route path='/app/afiliados' render={()=><Afiliados estado={estado} cambiarDash={cambiarDash}/>} ></Route>
+                            <Route path='/'  render={()=><Admin estado={estado} cambiarDash={cambiarDash}/>}></Route>
+                        </Switch>
+                    </div>
+                </div>
+      </Router>
   );
 }
 export default App;
